@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "components": ["src/components"],
+      "views/*": ["src/views/*"],
+      "interfaces/*": ["src/interfaces/*"],
+      "interfaces": ["src/interfaces"],
+      "services/*": ["src/services/*"],
+      "services": ["src/services"],
+      "stores": ["src/stores"],
+      "stores/*": ["src/stores/*"],
+      "styles/*": ["src/styles/*"],
+      "utils": ["src/utils"],
+      "utils/*": ["src/utils/*"],
+      "constants/*": ["src/constants/*"]
+    },
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*"]
+}
